@@ -1,13 +1,10 @@
-name: Build geoip-test.dat
+name: Build geoip.dat
 on:
-  # schedule:
-   # - cron: "0 0 * * 3"
+#  schedule:
+#    - cron: "0 0 * * 1"
   push:
     branches:
       - master
-    paths-ignore:
-      - "**/README.md"
-      - ".github/**"
 jobs:
   build:
     name: Build
