@@ -1,4 +1,4 @@
-name: Build geoip.dat
+name: Build geoip-test.dat
 on:
   # schedule:
    # - cron: "0 0 * * 3"
